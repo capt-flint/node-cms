@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Articles
+  each article in articles
+    div
+        h3= article.title
+        p= article.description
